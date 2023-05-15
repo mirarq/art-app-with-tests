@@ -2,11 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.atilsamancioglu.artbookhilttesting">
 
+
     <application>
-
-        <activity android:name=".HiltTestActivity"
-            android:exported="false">
-
+        <activity android:name="com.atilsamancioglu.HiltTestActivity"
+            android:exported="true">
         </activity>
 
     </application>
