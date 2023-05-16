@@ -53,7 +53,6 @@ class ArtFragment @Inject constructor(
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
         viewModel = ViewModelProvider(requireActivity()).get(ArtViewModel::class.java)
-
         val binding = FragmentArtsBinding.bind(view)
         fragmentBinding = binding
 
